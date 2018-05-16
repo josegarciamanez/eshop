@@ -16,7 +16,7 @@
     "productsPerPage": 6,
     "menuTitle": "Menu",
     "menuLocation": "side",
-    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;&copy; GARMAestudio &lt;span id=&quot;anio&quot;&gt;&lt;/span&gt;&lt;/h4&gt;\r\n\r\n&lt;script&gt;\r\n  function anio(){\r\n  var fecha = new Date();\r\n  var year = fecha.getFullYear();\r\n  document.getElementById(&apos;anio&apos;).innerHTML = &apos;year&apos;;\r\n  }\r\n&lt;/script&gt;",
+    "footerHtml": "",
     "googleAnalytics": "",
     "customCss": ".footer{padding-top:5px}",
     "currencySymbol": "€",

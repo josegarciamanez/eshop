@@ -149,13 +149,20 @@
             <footer class="footer">
                 <div class="container-fluid">
                     {{#isNull config.footerHtml}}
-                        <h4 class="text-center">© GARMAestudio 2018</h4>
+                        <h4 class="text-center">© GARMAestudio <span id="an" onload="anio()">2000</span></h4>
                     {{else}}
                         {{{config.footerHtml}}}
                     {{/isNull}}
                 </div>
             </footer>
 		{{/if}}
+        <script>
+            function anio() {
+                var fecha = new Date();
+                var ano = fecha.getFullYear();
+                document.getElementById("an").innerHTML = ano;
+            }
+        </script>
         <script src="/javascripts/pushy.min.js"></script>
 	</body>
 </html>
