@@ -73,7 +73,7 @@
     {{#if admin}}
 	<body class="admin">
     {{else}}
-    <body>
+    <body onload="getAnio()">
     {{/if}}
 		<!-- Static navbar -->
 	    <nav class="navbar navbar-default navbar-static-top">
@@ -149,7 +149,7 @@
             <footer class="footer">
                 <div class="container-fluid">
                     {{#isNull config.footerHtml}}
-                        <h4 class="text-center">© GARMAestudio <span id="an" onload="anio()">2000</span></h4>
+                        <h4 class="text-center">© GARMAestudio <span id="an">2010</span></h4>
                     {{else}}
                         {{{config.footerHtml}}}
                     {{/isNull}}
@@ -157,10 +157,9 @@
             </footer>
 		{{/if}}
         <script>
-            function anio() {
-                var fecha = new Date();
-                var ano = fecha.getFullYear();
-                document.getElementById("an").innerHTML = ano;
+            function getAnio() {
+                var fecha = new Date().getFullYear();
+                document.getElementById("an").innerHTML = fecha;
             }
         </script>
         <script src="/javascripts/pushy.min.js"></script>
