@@ -1,5 +1,5 @@
 {
-    "cartTitle": "CLOTH",
+    "cartTitle": "GARMAestudio",
     "cartDescription": "expressCart",
     "cartLogo": "",
     "baseUrl": "http://localhost:1111",
@@ -16,11 +16,11 @@
     "productsPerPage": 6,
     "menuTitle": "Menu",
     "menuLocation": "side",
-    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by expressCart&lt;/h4&gt;",
+    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;GARMAestudio - 2018&lt;/h4&gt;",
     "googleAnalytics": "",
-    "customCss": ".footer{padding-top: 5px;}",
-    "currencySymbol": "£",
+    "customCss": ".footer{padding-top:5px}",
+    "currencySymbol": "€",
     "paymentGateway": "stripe",
-    "databaseConnectionString": "mongodb://mongodb:27017/expresscart",
-    "theme": "Cloth"
+    "databaseConnectionString": "mongodb://127.0.0.1:27017/expresscart",
+    "theme": "Garma"
 }
