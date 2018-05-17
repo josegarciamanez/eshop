@@ -21,6 +21,6 @@
     "customCss": ".footer{padding-top:5px}",
     "currencySymbol": "€",
     "paymentGateway": "stripe",
-    "databaseConnectionString": "mongodb://127.0.0.1:27017/expresscart",
+    "databaseConnectionString": "mongodb://garma:123456@ds111390.mlab.com:11390/garma",
     "theme": "Garma"
 }
